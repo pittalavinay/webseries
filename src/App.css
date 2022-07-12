@@ -1,0 +1,48 @@
+body,html{
+  background-color: black;
+  border-color: white;
+}
+.row
+{
+  margin-top: 120px;
+  border-color: white;
+}
+.h
+{
+  color:blue;
+  font-style: italic;
+  font-variant: small-caps;
+}
+.in
+{
+  width:500px;
+  height:50px;
+  border:none;
+  outline:none;
+  border-radius: 40px;
+  color:white;
+  background-image: linear-gradient(black,red);
+}
+.button
+{
+  height:40px;
+  width:90px;
+  border-style:dotted;
+  background-image: linear-gradient(black,rgb(0, 255, 98));
+  border-radius: 20px;
+}
+.button:hover{
+  width:150px;
+  font-size: 20px;
+}
+.row{
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-color: red;
+}
+.card
+{
+  border-color: red;
+  border-width: 5px;
+}
